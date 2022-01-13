@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #7f76f3;
+}
+.Dictionary {
+    text-align: center;
+    padding: 5px;
+    margin: 0 auto;
+    position: relative;
+    top: 5px;
+    img{
+        width: 700px;
+    }
+    h1{
+        font-size: 26px;
+        font-family: 'New Tegomin', serif;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+    section{
+        background: #EFEFEF;
+        opacity: 0.6;
+        padding: 20px;
+        border-radius: 15px;
+        margin: 20px 0;
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    }
+    input{
+        width: 50%;
+        border-radius: 10px;
+        padding: 10px 8px;
+        border: 1px solid #ddd;
+    }
+  
+}
+
+.title {
+  text-align: center;
+  color: #39083F;
+  padding: 5px;
+  font-family: 'New Tegomin', serif;
+  font-size: 40px;
+  margin: 0 auto;
+}
+
+.hint {
+font-family: 'New Tegomin', serif;
+font-size: 16px;
+margin-top: 5px;
+}
+
+.Results {
+  text-align: center;
+  color: #39083F;
+  padding: 5px;
+  font-size: 32px;
+  font-family: 'New Tegomin', serif;
+  
+}
+
+.Meaning  {
+    .Definition{
+        margin-top: 10px;
+        color: #39083F;
+        text-align: center;
+        font-family: 'New Tegomin', serif;
+        font-size: 25px;
+    }
+    .Example{
+         font-size: 22px;
+        color: #C52B05;
+        font-family: 'New Tegomin', serif;
+        opacity: 0.7;
+        margin-top: 10px;
+    }
+  
+}
+
+.Synonyms {
+  margin: 20px 0 0;
+  font-size: 22px;
+  font-family: 'New Tegomin', serif;
+  li{
+    display: inline-block;
+    font-size: 20px;
+    font-family: 'New Tegomin', serif;
+    padding-right: 20px;
+    line-height: 1; 
+  }
+}
+#pronounce {
+  margin: 0 auto;
+  position: relative;
+  bottom: 100px;
+  right: 10px;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+.Phonetic {
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.Photos{
+    opacity: 0.9 !important;
+    background-color: #C2BFF1 !important;
+    img{
+        border-radius: 10px;
+        margin-bottom: 20px;
+        border: 3px solid #000000;
+    }
+  
+}
+
+.footer {
+  text-align: center;
+  margin: 40px;
+}
+
+.gitHub {
+  text-decoration: none;
+  color: #efdffc;
+  text-align: center;
+}
+
+.gitHub {
+    padding-bottom: 8px;
+    &:hover {
+        border-bottom: 5px solid #413aa3;
+    } 
+}
+
+.linkedIn {
+  text-decoration: none;
+  color: #efdffc;
+  text-align: center;
+}
+
+.linkedIn {
+    &:hover {
+        text-decoration: underline;
+    } 
+}
+
+.footer {
+  text-align: center;
+  color: white;
+}
+@media(max-width: 768px) {
+    .Dictionary{
+        input{
+            width: 100%;
+        }
+        h1{
+            font-size: 20px
+        }
+        img{
+        width: 250px;
+        }
+    }
+}
